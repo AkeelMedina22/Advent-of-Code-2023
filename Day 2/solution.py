@@ -77,7 +77,7 @@ def part_2() -> None:
         for i in range(len(results)):
             f.write(f"{data[i]} = {results[i]}\n")
 
-    print(f"Part 1 Solution: {sum(results)}")
+    print(f"Part 2 Solution: {sum(results)}")
 
 
 if __name__ == "__main__":
